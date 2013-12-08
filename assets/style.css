@@ -11,12 +11,12 @@ h2,h3,h4{margin: 0;font-weight: 300}
 h2{font-size: 2em}
 h3{margin-top: 0.5em;font-size: 1.5em}
 .wrapper{width:100%;margin: 0 auto;}
-.grid-test .i-g div{border:1px solid #ccc;min-height: 20px;font-size: 0.8em;text-align: center;line-height: 18px}
+.grid-test .i-g div{border:1px solid #ccc;min-height: 20px;font-size: 0.8em;text-align: center;line-height: 18px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden}
 .well{text-align: center}
 .well p strong{font-size: 2em; font-weight: 300;color: #C3E4DF}
 .well p{padding: 0;margin: 0;}
 pre.prettyprint{margin-left: 0;border: none !important;padding-top: 10px !important}
-.code{background: #eee}
+.code{background: #eee;overflow: hidden}
 li{padding: 0.4em 0}
 b{font-weight: bold}
 .grid-test.code{background: #eee}
@@ -31,10 +31,11 @@ footer{border-top: 3px solid #ccc;clear: both; margin-top: 1em;display: block;fl
     -webkit-box-shadow: 0 0 8px #ccc;
 }
 .author{text-align: center}
-.author .i-img{text-align: center}
+.author .i-img{text-align: center; }
 .download{font-size:1em; display: block; background:#C3E4DF; text-decoration: none; text-align: center;color:#333;height: 3em;line-height: 3em; }
 .download:hover{background: #3f6fa0;color:#fff}
 h2 small {font-size: 0.5em}
-.shareBox{padding-top: 2em}
+.shareBox{padding-top: 2em;padding-bottom: 2em}
 .copy{border-top:1px solid #ccc}
 .html5ninja a{text-decoration: none;font-size: 0.8em}
+.html5ninja  img{margin-right: 3px}
