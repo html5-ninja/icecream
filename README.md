@@ -7,7 +7,7 @@ Demo
 ---
 http://html5-ninja.com/icecream
 
-i for iceCream
+"i" for iceCream
 ---
  - i-container : a 980px container, for full width page just remove this class
  - i-g : "g" for grid , the grid class
