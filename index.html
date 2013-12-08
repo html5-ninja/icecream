@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IceCream - Simple and light responsive grid system</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="keywords" content="css3, grid, html5" >
+        <meta name="description" content="Sometimes you just need a grid system, everything else is excess, with the iceCream syntax this can be done easily and faster." >
+        <link href="css/icecream-grid.min.css" rel="stylesheet" />
+        <link href="assets/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <div class="i-container">
+                <div class="i-g">
+                    <div class="i-4 i-mp-1 i-ml-1"></div>
+                    <div class="i-4 i-mp-2 i-ml-2">
+                        <div class="i-img">
+                            <img src="assets/icecream-ninja.png" alt="IceCream Ninja" />
+                        </div>
+                    </div>
+                    <div class="i-4 i-mp-1 i-ml-1"></div>
+                    <div class="i-12 well">
+                        <h1>IceCream</h1>
+                        <p><strong>Simple and light responsive grid system</strong></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="wrapper">
+            <div class="i-container">
+                <div class="i-g">
+                    <div class="i-12">
+                        <br/>
+                        <h2>The Grid <small>(uncompressed 2.9kb, minified 1.8kb)</small></h2>
+                        <p>Sometimes you just need a grid system, everything else is excess, with the <b>iceCream</b> syntax this can be done easily and faster.</p>
+                    </div>
+                </div>    
+                <div class="i-g">
+                    <div class="i-12">
+                        <h3>And it's look like that</h3>
+                    </div>
+                </div>
+                <div class="grid-test">
+                    <div class="i-g">
+                        <div class="i-1">i-1</div>
+                        <div class="i-1">i-1</div>
+                        <div class="i-1">i-1</div>
+                        <div class="i-1">i-1</div>
+                        <div class="i-1">i-1</div>
+                        <div class="i-1">i-1</div>
+                        <div class="i-1">i-1</div>
+                        <div class="i-1">i-1</div>
+                        <div class="i-1">i-1</div>
+                        <div class="i-1">i-1</div>
+                        <div class="i-1">i-1</div>
+                        <div class="i-1">i-1</div>
+                        <div class="i-1">i-1</div>
+                        <div class="i-11">i-11</div>
+                        <div class="i-2">i-2</div>
+                        <div class="i-10">i-10</div>
+                        <div class="i-3">i-3</div>
+                        <div class="i-9">i-9</div>
+                        <div class="i-4">i-4</div>
+                        <div class="i-8">i-8</div>
+                        <div class="i-5">i-5</div>
+                        <div class="i-7">i-7</div>
+                        <div class="i-6">i-6</div>
+                        <div class="i-6">i-6</div>
+                        <div class="i-12">i-12</div>
+                    </div>
+                </div>
+
+                <div class="i-g">
+                    <div class="i-12">
+                        <h3><b>i</b> for iceCream</h3>
+                        <ul>
+                            <li><b>i-container</b> : a 980px container, for full width page just remove this class</li>
+                            <li><b>i-g</b> : <b>"g"</b> for grid , the grid class</li>
+                            <li><b>i-*</b> : iceCream grid is 12 columns layout starting from <b>i-0</b> <small>(for hiding)</small> to <b>i-12</b> <small>(100% width)</small></li>
+                            <li><b>i-mp-*</b> : <b>"mp"</b> for <b>mobile portrait</b> a 4 columns layout starting from <b>i-mp-0</b> <small>(for hiding)</small> to <b>i-mp-4</b> <small>(100% width)</small></li>
+                            <li><b>i-ml-*</b> : <b>"ml"</b> for <b>mobile landscape</b> a 4 columns layout starting from <b>i-ml-0</b> <small>(for hiding)</small> to <b>i-ml-4</b> <small>(100% width)</small></li>
+                            <li><b>i-tp-*</b> : <b>"tp"</b> for <b>tablet portrait</b> a 4 columns layout starting from <b>i-tp-0</b> <small>(for hiding)</small> to <b>i-tp-4</b> <small>(100% width)</small></li>
+                            <li><b>i-tl-*</b> : <b>"tl"</b> for <b>tablet landscape</b> a 4 columns layout starting from <b>i-tl-0</b> <small>(for hiding)</small> to <b>i-tl-4</b> <small>(100% width)</small></li>
+                            <li><b>i-img</b> : wrap image to fit the parent column width </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="i-g">
+                    <div class="i-12">
+                        <h3>Sample grid code</h3>
+                        <div class="code">
+                            <pre class="prettyprint">
+ &nbsp;&lt;div class="i-container"&gt;
+ &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="i-g"&gt;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="i-4"&gt;i-4&lt;/div&gt;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="i-8"&gt;i-8&lt;/div&gt;
+ &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
+ &nbsp;&lt;/div&gt;
+                            </pre>
+                        </div>
+                    </div> 
+                </div>
+                <div class="grid-test">
+                    <!-- sample code demo -->
+                    <div class="i-container">
+                        <div class="i-g">
+                            <div class="i-4">i-4</div>
+                            <div class="i-8">i-8</div>
+                        </div>
+                    </div>
+                    <!-- sample code demo -->
+                </div>
+            </div>
+            <div class="i-container">
+                <div class="i-g">
+                    <div class="i-12">
+                        <h3>Different screen sizes and columns behaviour</h3>
+                        <div class="code">
+                            <pre class="prettyprint">
+    &lt;div class=&quot;i-g&quot;&gt;
+        &lt;div class=&quot;i-8 i-mp-1 i-tp-2 i-tl-1&quot;&gt;i-8 i-mp-1 i-tp-2 i-tl-1&lt;/div&gt;
+        &lt;div class=&quot;i-4 i-mp-3 i-tp-2 i-tl-1&quot;&gt;i-4 i-mp-3 i-tp-2 i-tl-1&lt;/div&gt;           
+        &lt;div class=&quot;i-12 i-mp-2 i-ml-2 i-tp-2  i-tl-1&quot;&gt;i-12 i-mp-2 i-ml-2 i-tp-2  i-tl-1&lt;/div&gt;           
+        &lt;div class=&quot;i-12 i-mp-2 i-tp-2  i-tl-1&quot;&gt;i-12 i-mp-2 i-tp-2  i-tl-1&lt;/div&gt;           
+    &lt;/div&gt;                               
+                            </pre>
+                        </div>
+                        <p>Resize your browser to try it</p>
+                    </div>
+                </div>
+
+                <div class="grid-test">
+                    <div class="i-g">
+                        <div class="i-8 i-mp-1 i-tp-2 i-tl-1">i-8 i-mp-1 i-tp-2 i-tl-1</div>
+                        <div class="i-4 i-mp-3 i-tp-2 i-tl-1">i-4 i-mp-3 i-tp-2 i-tl-1</div>           
+                        <div class="i-12 i-mp-2 i-ml-2 i-tp-2  i-tl-1">i-12 i-mp-2 i-ml-2 i-tp-2  i-tl-1</div>           
+                        <div class="i-12 i-mp-2 i-tp-2  i-tl-1">i-12 i-mp-2 i-tp-2  i-tl-1</div>           
+                    </div>
+                </div>
+                <div class="i-g">
+                    <div class="i-12">
+                        <footer>
+                            <div class="i-g">
+                                <div class="i-4 html5ninja">
+                                    <h4>Start selling your HTML5 creation</h4>
+                                    <p>
+                                        <a href="http://html5-ninja.com">
+                                            <img align="left" src="http://html5-ninja.com/front/images/little-ninja.png" alt="html5 ninja"/>
+                                            html5-ninja.com is a marketplace where authors & designers propose their creations (themes, scripts... ) for selling.
+                                        </a>
+                                    </p>
+                                </div>
+                                <div class="i-4 i-ml-4 i-mp-4 i-tp-2">
+                                    <a href="#" class="download">Download v0.1 on gitHub</a>
+                                    <div class="shareBox">
+                                        <div class="fb-like" data-href="http://html5-ninja.com/icecream" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div> 
+                                        &nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-via="html5_ninja">Tweet</a>
+                                        <script>!function(d, s, id) {
+                                                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                                                if (!d.getElementById(id)) {
+                                                    js = d.createElement(s);
+                                                    js.id = id;
+                                                    js.src = p + '://platform.twitter.com/widgets.js';
+                                                    fjs.parentNode.insertBefore(js, fjs);
+                                                }
+                                            }(document, 'script', 'twitter-wjs');</script>
+
+                                        <!-- Place this tag where you want the share button to render. -->
+                                        <div class="g-plus" data-action="share"></div>
+
+                                        <!-- Place this tag after the last share tag. -->
+                                        <script type="text/javascript">
+                                            (function() {
+                                                var po = document.createElement('script');
+                                                po.type = 'text/javascript';
+                                                po.async = true;
+                                                po.src = 'https://apis.google.com/js/platform.js';
+                                                var s = document.getElementsByTagName('script')[0];
+                                                s.parentNode.insertBefore(po, s);
+                                            })();
+                                        </script>
+
+                                        <!-- Place this tag where you want the su badge to render -->
+                                        <su:badge layout="1"></su:badge>
+
+                                        <!-- Place this snippet wherever appropriate -->
+                                        <script type="text/javascript">
+                                            (function() {
+                                                var li = document.createElement('script');
+                                                li.type = 'text/javascript';
+                                                li.async = true;
+                                                li.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//platform.stumbleupon.com/1/widgets.js';
+                                                var s = document.getElementsByTagName('script')[0];
+                                                s.parentNode.insertBefore(li, s);
+                                            })();
+                                        </script>
+
+                                    </div>
+                                </div>
+
+                                <div class="i-4 author">
+                                    <div class="i-img">
+                                        <a href="https://plus.google.com/+ziedhosni" target="_blank">
+                                            <img src="assets/zied-hosni.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    Zied Hosni / zied.hosni.mail@gmail.com
+                                </div>
+                                <div class="i-12 copy">
+                                    <br/>
+                                    &copy; <a href="http://html5-ninja.com">HTML5 Ninja</a> - Code licensed under <a href="http://www.wtfpl.net/" target="_blank">WTFPL</a>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+        <div id="fb-root"></div>
+        <script>
+                                            (function(d, s, id) {
+                                                var js, fjs = d.getElementsByTagName(s)[0];
+                                                if (d.getElementById(id))
+                                                    return;
+                                                js = d.createElement(s);
+                                                js.id = id;
+                                                js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=378424785574976";
+                                                fjs.parentNode.insertBefore(js, fjs);
+                                            }(document, 'script', 'facebook-jssdk'));
+        </script>
+    </body>
+</html>

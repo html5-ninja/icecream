@@ -1,0 +1,102 @@
+/*-------------------------------------------------------- 
+    IceCream 0.1.0
+    Created on : 23 nov. 2013, 20:07:41
+    Author     : HTML5 Ninja - twitter @html5_ninja
+                 zied hosni - zied.hosni.mail@gmail.com
+    More info  : http://html5-ninja.com/icecream
+--------------------------------------------------------*/
+@import 'elements';
+/*-------------------------------------------------------- 
+    Grids
+--------------------------------------------------------*/
+// unit mesure 
+@unit : 100% / 48; 
+@colMargin : 100% / 48 / 2;
+// grid columns width
+@width1 :  @unit*3 ;
+@width2 :  @unit*7; 
+@width3 :  @unit*11; 
+@width4 :  @unit*15; 
+@width5 :  @unit*19; 
+@width6 :  @unit*23; 
+@width7 :  @unit*27; 
+@width8 :  @unit*31; 
+@width9 :  @unit*35; 
+@width10 :  @unit*39; 
+@width11 :  @unit*43; 
+@width12 :  @unit*47; 
+// grid columns mixins
+.gridColMargin(){margin : @colMargin/2 @colMargin;}
+.col(){.gridColMargin;float:left;.box-sizing();}
+// grid & cols
+.i-g{
+    clear:both;
+    .box-sizing;
+    > div{.col;}
+    .i-0{display:none}
+    .i-1{width:@width1;}
+    .i-2{width:@width2;}
+    .i-3{width:@width3;}
+    .i-4{width:@width4;}
+    .i-5{width:@width5;}
+    .i-6{width:@width6;}
+    .i-7{width:@width7;}
+    .i-8{width:@width8;}
+    .i-9{width:@width9;}
+    .i-10{width:@width10;}
+    .i-11{width:@width11;} 
+    .i-12{width:@width12;} 
+}
+.i-container{width:980px;margin:auto}
+.i-img img{max-width:100%}
+
+@media only screen {
+    
+    @media (max-width : 980px){
+        .i-container{width:100%}
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media (max-width:320px) {
+        .i-g{
+            .i-mp-0 {display:none}
+            .i-mp-1 {width:@width3}
+            .i-mp-2 {width:@width6}
+            .i-mp-3 {width:@width9}
+            .i-mp-4 {width:@width12}
+        }
+    }
+
+    /* Smartphones (landscape) ----------- */
+    @media (min-width : 321px) and (max-width:480px) {
+        .i-g{
+            .i-ml-0 {display:none}
+            .i-ml-1 {width:@width3}
+            .i-ml-2 {width:@width6}
+            .i-ml-3 {width:@width9}
+            .i-ml-4 {width:@width12}
+        }
+    }
+
+    /* tablet (portrait) ----------- */
+    @media  (min-width : 481px) and (max-width:768px) {
+        .i-g{
+            .i-tp-0 {display:none}
+            .i-tp-1 {width:@width3}
+            .i-tp-2 {width:@width6}
+            .i-tp-3 {width:@width9}
+            .i-tp-4 {width:@width12}
+        }
+    }
+
+    /* tablet (landscape) ----------- */
+    @media  (min-width : 769px) and (max-width:1024px) {
+        .i-g{
+            .i-tl-0 {display:none}
+            .i-tl-1 {width:@width3}
+            .i-tl-2 {width:@width6}
+            .i-tl-3 {width:@width9}
+            .i-tl-4 {width:@width12}
+        }
+    }
+}

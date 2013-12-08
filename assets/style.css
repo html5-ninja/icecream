@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Molle:400italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+body{font-family: 'Open Sans', sans-serif;color: #333; background: #fff;font-weight: 300;font-size: 1em}
+h1{font-family: 'Molle', cursive;font-size: 12vw; font-style: italic;font-weight: normal;margin: 0;text-align: center; color: #C3E4DF;
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+font-weight: 400;
+line-height: 1;}
+h2,h3,h4{margin: 0;font-weight: 300}
+h2{font-size: 2em}
+h3{margin-top: 0.5em;font-size: 1.5em}
+.wrapper{width:100%;margin: 0 auto;}
+.grid-test .i-g div{border:1px solid #ccc;min-height: 20px;font-size: 0.8em;text-align: center;line-height: 18px}
+.well{text-align: center}
+.well p strong{font-size: 2em; font-weight: 300;color: #C3E4DF}
+.well p{padding: 0;margin: 0;}
+pre.prettyprint{margin-left: 0;border: none !important;padding-top: 10px !important}
+.code{background: #eee}
+li{padding: 0.4em 0}
+b{font-weight: bold}
+.grid-test.code{background: #eee}
+footer{border-top: 3px solid #ccc;clear: both; margin-top: 1em;display: block;float: left;width: 100%;padding-top: 1em}
+.author img{
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border:3px solid #fff;
+    box-shadow: 0 0 8px #ccc;
+    -moz-box-shadow: 0 0 8px #ccc;
+    -webkit-box-shadow: 0 0 8px #ccc;
+}
+.author{text-align: center}
+.author .i-img{text-align: center}
+.download{font-size:1em; display: block; background:#C3E4DF; text-decoration: none; text-align: center;color:#333;height: 3em;line-height: 3em; }
+.download:hover{background: #3f6fa0;color:#fff}
+h2 small {font-size: 0.5em}
+.shareBox{padding-top: 2em}
+.copy{border-top:1px solid #ccc}
+.html5ninja a{text-decoration: none;font-size: 0.8em}
