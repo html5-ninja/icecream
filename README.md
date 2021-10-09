@@ -1,4 +1,4 @@
-The Grid
+Vivek
 =========
 
 Sometimes you just need a grid system, everything else is excess, with the iceCream syntax this can be done easily and faster.
